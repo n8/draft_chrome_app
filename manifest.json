@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Draft",
+  "version": "2.2",
+  "minimum_chrome_version": "23",
+  "permissions": ["webview"],
+  "icons": {
+    "16": "icon.png",
+    "128": "icon-128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  }
+}
